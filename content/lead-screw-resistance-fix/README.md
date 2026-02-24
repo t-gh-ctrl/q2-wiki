@@ -2,24 +2,25 @@
 
 On a brand new printer, perhaps because of bad Q/C or rough handling during
 shipping, it is possible that the bed's lead screw guide(s) and the stepper
-motor loose alignment, resulting in increased rotation resistance of one (or
+motor(s) lose alignment, resulting in increased rotation resistance of one (or
 both) z-axis lead screw as the bed travels to the bottom of the enclosure.
 
-In the worst case, the mechanical resistance becomes so important that stepper
-motor's overcurrent detection is triggered - as if the bed made contact with
+In the worst case, the mechanical resistance reaches the stepper
+motor's overcurrent threshold - as if the bed made contact with
 the bottom of the enclosure (or calibration blocks). With one lead screw
-stopped and the other still rotating, the bed is heavily tilted to one side.
+immobile and the other still rotating, the bed becomes heavily tilted.
 
 Automatic Bed Leveling (ABL) then fails with "No trigger on probe after full
 movement" - which is expected given the heavy lean. The wiki's [suggested
-fixes](https://wiki.qidi3d.com/en/Q2/Leveling-Error) won't work because the
-cause isn't a calibration issue.
+fixes](https://wiki.qidi3d.com/en/Q2/Leveling-Error) won't work because the issue
+has nothing to do with calibration.
 
 A temporary fix is to put two equal-height objects below the bed (eg. soda
-cans). This obviously restricts printing height.
+cans) to keep the bed in a height range where the lead screw rotation resistance
+doesn't trigger the overcurrent detection. This obviously restricts printing height.
 
-The long-term solution is to loosen the screws holding the stepper motor(s) and
-the bed's lead screw guide, lower the bed, and retighten.
+The long-term solution is to fix the alignment by loosening the screws holding the
+stepper motor(s) and the bed's lead screw guide(s), lowering the bed, and retightening.
 
 This [official Qidi
 video](https://drive.google.com/drive/folders/1HHgrOTxmV4UaDpfuViA4hCU_qMdz1EFn?usp=sharing)
