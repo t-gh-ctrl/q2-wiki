@@ -37,9 +37,15 @@ This is a summary collection of various config tweaks, print profiles, and links
 ### [Installing Spoolman](./content/spoolman-installation/README.md)
 
 ### [Installing KlipperScreen](./content/klipperscreen-installation/README.md)
-
+Q2 power consumption and power supply replacement
 ---
 
 ## Printer Configuration Tweaks
 
 ### [Displaying Toolhead and Host CPU in Temperature List](./content/temperature-monitoring/README.md)
+
+---
+
+## Hardware tweaks
+
+### [Power consumption, PSU issues and PSU swap](./content/power_consumption_and_PSUs/README.md)
