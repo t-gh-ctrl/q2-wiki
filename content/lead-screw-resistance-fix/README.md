@@ -8,7 +8,8 @@ both) z-axis lead screw as the bed travels to the bottom of the enclosure.
 In the worst case, the mechanical resistance reaches the stepper
 motor's overcurrent threshold - as if the bed made contact with
 the bottom of the enclosure (or calibration blocks). With one lead screw
-immobile and the other still rotating, the bed becomes heavily tilted.
+immobile and the other still rotating, the bed becomes heavily tilted, as shown
+in [this video](./bed_tilt.mp4).
 
 Automatic Bed Leveling (ABL) then fails with "No trigger on probe after full
 movement" - which is expected given the heavy lean. The wiki's [suggested
