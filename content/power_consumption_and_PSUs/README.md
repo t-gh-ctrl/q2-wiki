@@ -4,7 +4,7 @@
 
 |                    | DC side | AC side |
 |--------------------|---------|---------|
-| Stanbdy            | 30W     | 60W     |
+| Standby            | 30W     | 60W     |
 | Nozzle heater      | 64W     | 87W     |
 | Bed heater         | 264W    | 478W    |
 | Enclosure heater   | -       | 272W    |
@@ -12,8 +12,8 @@
 Notes:
 
 - Standby was measured after a print, with fans on.
-- Heaters are operating at full PWM duty.
-- The enclosure's heater is hard-wired to AC, controlled with a solid state relay; the enclosure's fan in on DC.
+- Heaters were operating at full PWM duty.
+- The enclosure's heater is hard-wired to AC, controlled with a solid state relay (the enclosure's fan in on DC).
 
 Those measurements show that:
 
