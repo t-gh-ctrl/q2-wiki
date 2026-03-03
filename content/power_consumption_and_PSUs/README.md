@@ -44,3 +44,5 @@ The LRS series don't have active power factor correction though. The Mean Well
 dimension as the original PSU, but unfortunately doesn't work because the printer operates at ~350W, and the 30W rating
 difference with the LRS-350 is enough to make the RSP-320 stop/restarts when the heaters are started at the same time
 (note- the PSU works when manually delaying the nozzle and bed heaters by a couple of seconds).
+
+Also note that the LRS (and RSP) series don't have a terminal protection cover. Printing a cover (or finding an appropriate piece of plastic) is recommended over taping the terminals with electrical tape.
